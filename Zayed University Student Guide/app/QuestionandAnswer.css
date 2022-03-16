@@ -1,0 +1,71 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.QuestionandAnswer_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilegrid_2 */
+.QuestionandAnswer_mobilegrid_2 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.QuestionandAnswer_mobilegrid_2_wrapper {
+
+}
+.QuestionandAnswer_mobilegrid_2 > tr > td {
+	vertical-align: top;
+}
+.QuestionandAnswer_mobilegrid_2_row_0, .QuestionandAnswer_mobilegrid_2_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_3 */
+.QuestionandAnswer_mobilegridcell_3 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.QuestionandAnswer_mobilegridcell_3 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* btnAskQuestion */
+#QuestionandAnswer_btnAskQuestion {
+
+}
+.ui-btn.QuestionandAnswer_btnAskQuestion {
+	margin: 1px 1px 1px 1px;
+}
+/* mobilegridcell_4 */
+.QuestionandAnswer_mobilegridcell_4 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.QuestionandAnswer_mobilegridcell_4 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* btnGiveAnswer */
+#QuestionandAnswer_btnGiveAnswer {
+
+}
+.ui-btn.QuestionandAnswer_btnGiveAnswer {
+	margin: 1px 1px 1px 1px;
+}
+/* btnViewAnswer */
+#QuestionandAnswer_btnViewAnswer {
+
+}
+.ui-btn.QuestionandAnswer_btnViewAnswer {
+	margin: 5px 55px 9px 55px;
+}
+/* mobilefooter */
+.QuestionandAnswer_mobilefooter {
+	min-height:38px;
+}

@@ -1,0 +1,61 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.Choose_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* spacer_12 */
+.Choose_spacer_12 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* btnStudentGuide */
+#Choose_btnStudentGuide {
+
+}
+.ui-btn.Choose_btnStudentGuide {
+	margin: 4px 5px 4px 5px;
+}
+/* spacer_16 */
+.Choose_spacer_16 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* btnReport */
+#Choose_btnReport {
+
+}
+.ui-btn.Choose_btnReport {
+	margin: 4px 5px 4px 5px;
+}
+/* spacer_17 */
+.Choose_spacer_17 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* btnQuestionAnswer */
+#Choose_btnQuestionAnswer {
+
+}
+.ui-btn.Choose_btnQuestionAnswer {
+	margin: 4px 5px 4px 5px;
+}
+/* spacer_19 */
+.Choose_spacer_19 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* btnAboutUs */
+#Choose_btnAboutUs {
+
+}
+.ui-btn.Choose_btnAboutUs {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.Choose_mobilefooter {
+	min-height:38px;
+}

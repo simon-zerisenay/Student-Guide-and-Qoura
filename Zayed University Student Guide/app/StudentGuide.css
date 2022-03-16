@@ -1,0 +1,47 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.StudentGuide_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* lblGuide */
+.StudentGuide_lblGuide {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Georgia; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* sltSelectPlace */
+.StudentGuide_sltSelectPlace {
+	margin: 4px 5px 4px 5px;
+}
+/* lblDescription */
+.StudentGuide_lblDescription {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_11 */
+.StudentGuide_spacer_11 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* sltChangeLanguage */
+.StudentGuide_sltChangeLanguage {
+	margin: 4px 55px 4px 55px;
+}
+/* lbltranslated */
+.StudentGuide_lbltranslated {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter */
+.StudentGuide_mobilefooter {
+	min-height:38px;
+}

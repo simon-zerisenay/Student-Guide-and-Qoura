@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            About_Us
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * gap://ready data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <!-- Uncomment link and meta tags below to activate PWA icons and theme color -->
+        <!-- link rel="manifest" href="../manifest.json" crossOrigin="use-credentials" -->
+        <!-- meta name="theme-color" content="#ffffff" -->
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/ios-like_Ios_like_JQM_1_4_Theme/ios-like_Ios_like_JQM_1_4_Theme.css"
+        rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <!-- Uncomment this script to activate service worker -->
+        <!-- <script>
+        if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('../sw.js')
+        .then(() => console.log('service worker installed'))
+        .catch(err => console.error('Error', err));
+        }
+        </script>
+        -->
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+            $(document).bind("mobileinit", function() {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1) {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                } else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1) {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                } else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g)) {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/databaseUtils.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="About_Us" id="About_Us" class="type-interior"
+        data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Back"
+            data-theme="a" name="mobileheader" id="About_Us_mobileheader" class="About_Us_mobileheader">
+                <h1 dsid="mobileheader">
+                    About Us
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="About_Us_mobilecontainer" name="mobilecontainer" class="About_Us_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="b">
+                <link href="About_Us.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="About_Us.js">
+                </script>
+                <!-- lblZUHelpApp -->
+                <div name="lblZUHelpApp" id="About_Us_lblZUHelpApp" dsid="lblZUHelpApp" data-role="appery_label"
+                class="About_Us_lblZUHelpApp">
+                    ZU Help App
+                </div>
+                <!-- lblDescription -->
+                <div name="lblDescription" id="About_Us_lblDescription" dsid="lblDescription" data-role="appery_label"
+                class="About_Us_lblDescription">
+                    This app is created to provide help to Zayed university male students. It provides
+                    the students with the full location and information about the important destinations
+                    inside the university in different languages which they are comfortable with. Moreover,
+                    there is an online service in which a student can post a question and get instant
+                    answers from other students. Besides, students can use this app to report any issues
+                    or problems to the staffs in charge from a given list.
+                </div>
+                <!-- sltTranslateAboutUs -->
+                <div data-role="fieldcontain" class="About_Us_sltTranslateAboutUs ">
+                    <select name="sltTranslateAboutUs" id="About_Us_sltTranslateAboutUs" dsid="sltTranslateAboutUs"
+                    data-theme="b" data-role="appery_selectmenu" data-inline="false" data-mini="true"
+                    data-icon="arrow-d" data-iconpos="right" data-native-menu="true" tabindex="1" appery-class="About_Us_sltTranslateAboutUs">
+                        <option id="About_Us_sltTranslateAboutUs-0" value="en|en" reRender="sltTranslateAboutUs"
+                        dsid="sltTranslateAboutUs-0" selected="selected">
+                            Select Langauge
+                        </option>
+                        <option id="About_Us_sltTranslateAboutUs-1" value="en|ar" reRender="sltTranslateAboutUs"
+                        dsid="sltTranslateAboutUs-1">
+                            Arabic
+                        </option>
+                        <option id="About_Us_sltTranslateAboutUs-2" value="en|ko" reRender="sltTranslateAboutUs"
+                        dsid="sltTranslateAboutUs-2">
+                            Korean
+                        </option>
+                        <option id="About_Us_sltTranslateAboutUs-3" value="en|hi" reRender="sltTranslateAboutUs"
+                        dsid="sltTranslateAboutUs-3">
+                            Indian Hindi
+                        </option>
+                        <option id="About_Us_sltTranslateAboutUs-4" value="en|it" reRender="sltTranslateAboutUs"
+                        dsid="sltTranslateAboutUs-4">
+                            Italian
+                        </option>
+                        <option id="About_Us_sltTranslateAboutUs-5" value="en|fr" reRender="sltTranslateAboutUs"
+                        dsid="sltTranslateAboutUs-5">
+                            French
+                        </option>
+                        <option id="About_Us_sltTranslateAboutUs-6" value="en|es" reRender="sltTranslateAboutUs"
+                        dsid="sltTranslateAboutUs-6">
+                            Spanish
+                        </option>
+                        <option id="About_Us_sltTranslateAboutUs-7" value="en|de" reRender="sltTranslateAboutUs"
+                        dsid="sltTranslateAboutUs-7">
+                            German Deutch
+                        </option>
+                        <option id="About_Us_sltTranslateAboutUs-8" value="en|ur" reRender="sltTranslateAboutUs"
+                        dsid="sltTranslateAboutUs-8">
+                            Pakistan Urdu
+                        </option>
+                        <option id="About_Us_sltTranslateAboutUs-9" value="en|zh" reRender="sltTranslateAboutUs"
+                        dsid="sltTranslateAboutUs-9">
+                            Chinese
+                        </option>
+                        <option id="About_Us_sltTranslateAboutUs-10" value="en|ja" reRender="sltTranslateAboutUs"
+                        dsid="sltTranslateAboutUs-10">
+                            Japanese
+                        </option>
+                        <option id="About_Us_sltTranslateAboutUs-11" value="en|sw" reRender="sltTranslateAboutUs"
+                        dsid="sltTranslateAboutUs-11">
+                            Swahili
+                        </option>
+                        <option id="About_Us_sltTranslateAboutUs-12" value="en|tr" reRender="sltTranslateAboutUs"
+                        dsid="sltTranslateAboutUs-12">
+                            Turkish
+                        </option>
+                        <option id="About_Us_sltTranslateAboutUs-13" value="en|ru" reRender="sltTranslateAboutUs"
+                        dsid="sltTranslateAboutUs-13">
+                            Russian
+                        </option>
+                    </select>
+                </div>
+                <!-- lblDevelopers -->
+                <div name="lblDevelopers" id="About_Us_lblDevelopers" dsid="lblDevelopers" data-role="appery_label"
+                class="About_Us_lblDevelopers">
+                    Developers:
+                </div>
+                <!-- Si -->
+                <div class="About_Us_Si_wrapper" data-wrapper-for="Si">
+                    <table id="About_Us_Si" class="About_Us_Si" dsid="Si" name="Si" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="About_Us_Si_row_0">
+                            <!-- mobilegridcell_5 -->
+                            <td id="About_Us_mobilegridcell_5" name="mobilegridcell_5" class="About_Us_mobilegridcell_5"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lblSizer -->
+                                    <div name="lblSizer" id="About_Us_lblSizer" dsid="lblSizer" data-role="appery_label"
+                                    class="About_Us_lblSizer">
+                                        Simon Zerisenay
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_6 -->
+                            <td id="About_Us_mobilegridcell_6" name="mobilegridcell_6" class="About_Us_mobilegridcell_6"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lblNati -->
+                                    <div name="lblNati" id="About_Us_lblNati" dsid="lblNati" data-role="appery_label"
+                                    class="About_Us_lblNati">
+                                        Natnael Zerai
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- lblContactUS -->
+                <div name="lblContactUS" id="About_Us_lblContactUS" dsid="lblContactUS" data-role="appery_label"
+                class="About_Us_lblContactUS">
+                    Contact Us:
+                </div>
+                <!-- mobilegrid_11 -->
+                <div class="About_Us_mobilegrid_11_wrapper" data-wrapper-for="mobilegrid_11">
+                    <table id="About_Us_mobilegrid_11" class="About_Us_mobilegrid_11" dsid="mobilegrid_11"
+                    name="mobilegrid_11" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="About_Us_mobilegrid_11_row_0">
+                            <!-- mobilegridcell_12 -->
+                            <td id="About_Us_mobilegridcell_12" name="mobilegridcell_12" class="About_Us_mobilegridcell_12"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lblSimonEmail -->
+                                    <div name="lblSimonEmail" id="About_Us_lblSimonEmail" dsid="lblSimonEmail" data-role="appery_label"
+                                    class="About_Us_lblSimonEmail">
+                                        Simonzerisenay@gmail.com
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_13 -->
+                            <td id="About_Us_mobilegridcell_13" name="mobilegridcell_13" class="About_Us_mobilegridcell_13"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lblNatnaelEmail -->
+                                    <div name="lblNatnaelEmail" id="About_Us_lblNatnaelEmail" dsid="lblNatnaelEmail"
+                                    data-role="appery_label" class="About_Us_lblNatnaelEmail">
+                                        Natizerai11@gmail.com
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="About_Us_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="About_Us_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>

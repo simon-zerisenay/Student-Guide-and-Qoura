@@ -1,0 +1,14 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./",
+  "scripts": {
+    "buildSW": "workbox generateSW sw-config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "workbox-cli": "^3.6.3"
+  }
+}

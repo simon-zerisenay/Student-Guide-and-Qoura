@@ -1,0 +1,147 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.About_Us_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* lblZUHelpApp */
+.About_Us_lblZUHelpApp {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Georgia; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* lblDescription */
+.About_Us_lblDescription {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Georgia; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* sltTranslateAboutUs */
+.About_Us_sltTranslateAboutUs {
+	margin: 4px 55px 4px 55px;
+}
+/* lblDevelopers */
+.About_Us_lblDevelopers {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: center; font-family: Georgia; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* Si */
+.About_Us_Si {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.About_Us_Si_wrapper {
+
+}
+.About_Us_Si > tr > td {
+	vertical-align: top;
+}
+.About_Us_Si_row_0, .About_Us_Si_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_5 */
+.About_Us_mobilegridcell_5 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.About_Us_mobilegridcell_5 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblSizer */
+.About_Us_lblSizer {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Georgia; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_6 */
+.About_Us_mobilegridcell_6 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.About_Us_mobilegridcell_6 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblNati */
+.About_Us_lblNati {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Georgia; font-size: 16px;
+	margin: 4px 3px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* lblContactUS */
+.About_Us_lblContactUS {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: center; font-family: Georgia; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegrid_11 */
+.About_Us_mobilegrid_11 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.About_Us_mobilegrid_11_wrapper {
+
+}
+.About_Us_mobilegrid_11 > tr > td {
+	vertical-align: top;
+}
+.About_Us_mobilegrid_11_row_0, .About_Us_mobilegrid_11_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_12 */
+.About_Us_mobilegridcell_12 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.About_Us_mobilegridcell_12 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblSimonEmail */
+.About_Us_lblSimonEmail {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Georgia; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_13 */
+.About_Us_mobilegridcell_13 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.About_Us_mobilegridcell_13 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblNatnaelEmail */
+.About_Us_lblNatnaelEmail {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Georgia; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter */
+.About_Us_mobilefooter {
+	min-height:38px;
+}

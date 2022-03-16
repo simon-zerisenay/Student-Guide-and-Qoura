@@ -1,0 +1,49 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.ReportPage_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* lblSelectDestination */
+.ReportPage_lblSelectDestination {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: center; font-family: Georgia; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* sltSelectPosition */
+.ReportPage_sltSelectPosition {
+	margin: 4px 5px 4px 5px;
+}
+/* spacer_4 */
+.ReportPage_spacer_4 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* txtSubject */
+.ReportPage_txtSubject {
+	margin: 4px 0px 4px 0px;
+}
+/* spacer_6 */
+.ReportPage_spacer_6 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* txtEnterEmail */
+.ReportPage_txtEnterEmail {
+	margin: 4px 0px 4px 0px;
+}
+/* btnSendEmail */
+#ReportPage_btnSendEmail {
+
+}
+.ui-btn.ReportPage_btnSendEmail {
+	margin: 4px 55px 4px 80px;
+}
+/* mobilefooter */
+.ReportPage_mobilefooter {
+	min-height:38px;
+}

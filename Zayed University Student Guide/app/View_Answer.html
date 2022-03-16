@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            View_Answer
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * gap://ready data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <!-- Uncomment link and meta tags below to activate PWA icons and theme color -->
+        <!-- link rel="manifest" href="../manifest.json" crossOrigin="use-credentials" -->
+        <!-- meta name="theme-color" content="#ffffff" -->
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/ios-like_Ios_like_JQM_1_4_Theme/ios-like_Ios_like_JQM_1_4_Theme.css"
+        rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <!-- Uncomment this script to activate service worker -->
+        <!-- <script>
+        if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('../sw.js')
+        .then(() => console.log('service worker installed'))
+        .catch(err => console.error('Error', err));
+        }
+        </script>
+        -->
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+            $(document).bind("mobileinit", function() {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1) {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                } else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1) {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                } else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g)) {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/databaseUtils.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="View_Answer" id="View_Answer"
+        class="type-interior" data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Back"
+            data-theme="d" name="mobileheader" id="View_Answer_mobileheader" class="View_Answer_mobileheader">
+                <h1 dsid="mobileheader">
+                    View Answers
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="View_Answer_mobilecontainer" name="mobilecontainer"
+            class="View_Answer_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="b">
+                <link href="View_Answer.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="View_Answer.js">
+                </script>
+                <!-- lblSelectQuestion -->
+                <div name="lblSelectQuestion" id="View_Answer_lblSelectQuestion" dsid="lblSelectQuestion"
+                data-role="appery_label" class="View_Answer_lblSelectQuestion">
+                    Select Question
+                </div>
+                <!-- sltSelectQuestion -->
+                <div data-role="fieldcontain" class="View_Answer_sltSelectQuestion ">
+                    <select name="sltSelectQuestion" id="View_Answer_sltSelectQuestion" dsid="sltSelectQuestion"
+                    data-theme="d" data-role="appery_selectmenu" data-inline="false" data-mini="true"
+                    data-icon="arrow-d" data-iconpos="right" data-native-menu="true" tabindex="3" appery-class="View_Answer_sltSelectQuestion">
+                        <option id="View_Answer_sltSelectQuestion-0" value="" reRender="sltSelectQuestion"
+                        dsid="sltSelectQuestion-0">
+                        </option>
+                    </select>
+                </div>
+                <!-- lblViewQuestion -->
+                <div name="lblViewQuestion" id="View_Answer_lblViewQuestion" dsid="lblViewQuestion"
+                data-role="appery_label" class="View_Answer_lblViewQuestion">
+                </div>
+                <!-- spacer_7 -->
+                <div id="View_Answer_spacer_7" data-role="appery_spacer" dsid="spacer_7" class='mobilespacer View_Answer_spacer_7'>
+                </div>
+                <!-- lblShowDescription -->
+                <div name="lblShowDescription" id="View_Answer_lblShowDescription" dsid="lblShowDescription"
+                data-role="appery_label" class="View_Answer_lblShowDescription">
+                    List of Answers
+                </div>
+                <!-- mobilegrid_2 -->
+                <div class="View_Answer_mobilegrid_2_wrapper" data-wrapper-for="mobilegrid_2">
+                    <table id="View_Answer_mobilegrid_2" class="View_Answer_mobilegrid_2" dsid="mobilegrid_2"
+                    name="mobilegrid_2" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <tr class="View_Answer_mobilegrid_2_row_0">
+                            <!-- gridListAll -->
+                            <td id="View_Answer_gridListAll" name="gridListAll" class="View_Answer_gridListAll"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lblViewAnswer -->
+                                    <div name="lblViewAnswer" id="View_Answer_lblViewAnswer" dsid="lblViewAnswer" data-role="appery_label"
+                                    class="View_Answer_lblViewAnswer">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="View_Answer_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="View_Answer_mobilefooter" data-theme="d">
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+    "short_name": "Zayed University Student Guide",
+    "name": "Zayed University Student Guide",
+    "description": "",
+    "display": "fullscreen",
+    "orientation": "any",
+    "start_url": "/",
+    "scope": "/",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+    ]
+}

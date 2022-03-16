@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            Choose
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * gap://ready data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <!-- Uncomment link and meta tags below to activate PWA icons and theme color -->
+        <!-- link rel="manifest" href="../manifest.json" crossOrigin="use-credentials" -->
+        <!-- meta name="theme-color" content="#ffffff" -->
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/ios-like_Ios_like_JQM_1_4_Theme/ios-like_Ios_like_JQM_1_4_Theme.css"
+        rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <!-- Uncomment this script to activate service worker -->
+        <!-- <script>
+        if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('../sw.js')
+        .then(() => console.log('service worker installed'))
+        .catch(err => console.error('Error', err));
+        }
+        </script>
+        -->
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+            $(document).bind("mobileinit", function() {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1) {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                } else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1) {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                } else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g)) {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/databaseUtils.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="Choose" id="Choose" class="type-interior"
+        data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Back"
+            data-theme="e" name="mobileheader" id="Choose_mobileheader" class="Choose_mobileheader">
+                <h1 dsid="mobileheader">
+                    ZU Help App
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="Choose_mobilecontainer" name="mobilecontainer" class="Choose_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="b">
+                <link href="Choose.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="Choose.js">
+                </script>
+                <!-- spacer_12 -->
+                <div id="Choose_spacer_12" data-role="appery_spacer" dsid="spacer_12" class='mobilespacer Choose_spacer_12'>
+                </div>
+                <!-- btnStudentGuide --><!--
+                --><a data-role="button" name="btnStudentGuide" dsid="btnStudentGuide" class="Choose_btnStudentGuide"
+                id="Choose_btnStudentGuide" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="true" data-theme="d" tabindex="4">
+                Student Guide
+                </a><!--
+                --><!-- spacer_16 -->
+                <div id="Choose_spacer_16" data-role="appery_spacer" dsid="spacer_16" class='mobilespacer Choose_spacer_16'>
+                </div>
+                <!-- btnReport --><!--
+                --><a data-role="button" name="btnReport" dsid="btnReport" class="Choose_btnReport"
+                id="Choose_btnReport" data-corners="true" data-icon="mail" data-iconpos="left" x-apple-data-detectors="false"
+                data-mini="true" data-theme="b" tabindex="5">
+                Report an Issue
+                </a><!--
+                --><!-- spacer_17 -->
+                <div id="Choose_spacer_17" data-role="appery_spacer" dsid="spacer_17" class='mobilespacer Choose_spacer_17'>
+                </div>
+                <!-- btnQuestionAnswer --><!--
+                --><a data-role="button" name="btnQuestionAnswer" dsid="btnQuestionAnswer" class="Choose_btnQuestionAnswer"
+                id="Choose_btnQuestionAnswer" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="true" data-theme="b" tabindex="7">
+                Question and Answer
+                </a><!--
+                --><!-- spacer_19 -->
+                <div id="Choose_spacer_19" data-role="appery_spacer" dsid="spacer_19" class='mobilespacer Choose_spacer_19'>
+                </div>
+                <!-- btnAboutUs --><!--
+                --><a data-role="button" name="btnAboutUs" dsid="btnAboutUs" class="Choose_btnAboutUs"
+                id="Choose_btnAboutUs" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="true" data-theme="a" tabindex="6">
+                About Us
+                </a>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="Choose_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="Choose_mobilefooter" data-theme="e">
+            </div>
+        </div>
+    </body>
+
+</html>

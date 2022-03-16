@@ -1,0 +1,77 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.View_Answer_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* lblSelectQuestion */
+.View_Answer_lblSelectQuestion {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: left; font-family: Georgia; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* sltSelectQuestion */
+.View_Answer_sltSelectQuestion {
+	margin: 4px 5px 4px 5px;
+}
+/* lblViewQuestion */
+.View_Answer_lblViewQuestion {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_7 */
+.View_Answer_spacer_7 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* lblShowDescription */
+.View_Answer_lblShowDescription {
+	text-decoration: underline; font-weight: bold; text-align: left; font-family: Georgia; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegrid_2 */
+.View_Answer_mobilegrid_2 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.View_Answer_mobilegrid_2_wrapper {
+
+}
+.View_Answer_mobilegrid_2 > tr > td {
+	vertical-align: top;
+}
+.View_Answer_mobilegrid_2_row_0, .View_Answer_mobilegrid_2_row_0 > td {
+	height: 30px
+}
+/* gridListAll */
+.View_Answer_gridListAll {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.View_Answer_gridListAll > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblViewAnswer */
+.View_Answer_lblViewAnswer {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter */
+.View_Answer_mobilefooter {
+	min-height:38px;
+}

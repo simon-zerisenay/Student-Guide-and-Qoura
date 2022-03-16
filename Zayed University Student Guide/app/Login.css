@@ -1,0 +1,40 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.Login_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* lblUserName */
+.Login_lblUserName {
+	margin: 4px 0px 4px 0px;
+}
+/* lblPassword */
+.Login_lblPassword {
+	margin: 4px 0px 4px 0px;
+}
+/* btnlogin */
+#Login_btnlogin {
+
+}
+.ui-btn.Login_btnlogin {
+	margin: 4px 55px 4px 55px;
+}
+/* spacer_6 */
+.Login_spacer_6 {
+	width: 260px; height: 80px;
+	margin: 4px 0px 4px 0px;
+}
+/* btnSignUp */
+#Login_btnSignUp {
+
+}
+.ui-btn.Login_btnSignUp {
+	margin: 4px 55px 4px 55px;
+}
+/* mobilefooter */
+.Login_mobilefooter {
+	min-height:38px;
+}

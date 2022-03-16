@@ -1,0 +1,5 @@
+"_id:string","acl:object","_createdAt:date","_updatedAt:date","Question:string"
+"5eaa924f6b018233d325e83d","{ \""*\"" : { \""write\"" : true , \""read\"" : true}}","2020-04-30 08:54:39.838","2020-04-30 08:54:39.838","who is the president of zayed university?"
+"5eaaaf126b01822b22fc3c2c","{ \""*\"" : { \""write\"" : true , \""read\"" : true}}","2020-04-30 10:57:22.485","2020-04-30 10:57:22.485","who is the president of UAE?"
+"5eaaaf86b1900b1322794955","{ \""*\"" : { \""write\"" : true , \""read\"" : true}}","2020-04-30 10:59:18.140","2020-04-30 10:59:18.140","what is the formula of Energy?"
+"5eaabc62a428930c403f092c","{ \""*\"" : { \""write\"" : true , \""read\"" : true}}","2020-04-30 11:54:10.903","2020-04-30 11:54:10.903","who is the president of zayed university?"

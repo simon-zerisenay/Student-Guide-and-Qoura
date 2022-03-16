@@ -1,0 +1,42 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.Give_Answer_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* lblSelectQuestion */
+.Give_Answer_lblSelectQuestion {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: left; font-family: Georgia; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* sltQuestions */
+.Give_Answer_sltQuestions {
+	margin: 4px 5px 4px 5px;
+}
+/* txtViewQuestion */
+.Give_Answer_txtViewQuestion {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* txtAnswer */
+.Give_Answer_txtAnswer {
+	margin: 4px 0px 4px 0px;
+}
+/* btnSubmitAnswer */
+#Give_Answer_btnSubmitAnswer {
+
+}
+.ui-btn.Give_Answer_btnSubmitAnswer {
+	margin: 4px 55px 4px 55px;
+}
+/* mobilefooter */
+.Give_Answer_mobilefooter {
+	min-height:38px;
+}

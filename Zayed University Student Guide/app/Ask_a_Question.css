@@ -1,0 +1,24 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.Ask_a_Question_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* txtQuestion */
+.Ask_a_Question_txtQuestion {
+	margin: 4px 0px 4px 0px;
+}
+/* btnSubmitQuestion */
+#Ask_a_Question_btnSubmitQuestion {
+
+}
+.ui-btn.Ask_a_Question_btnSubmitQuestion {
+	margin: 4px 55px 4px 55px;
+}
+/* mobilefooter */
+.Ask_a_Question_mobilefooter {
+	min-height:38px;
+}

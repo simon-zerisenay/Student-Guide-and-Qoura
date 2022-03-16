@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            StudentGuide
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * gap://ready data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <!-- Uncomment link and meta tags below to activate PWA icons and theme color -->
+        <!-- link rel="manifest" href="../manifest.json" crossOrigin="use-credentials" -->
+        <!-- meta name="theme-color" content="#ffffff" -->
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/ios-like_Ios_like_JQM_1_4_Theme/ios-like_Ios_like_JQM_1_4_Theme.css"
+        rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <!-- Uncomment this script to activate service worker -->
+        <!-- <script>
+        if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('../sw.js')
+        .then(() => console.log('service worker installed'))
+        .catch(err => console.error('Error', err));
+        }
+        </script>
+        -->
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+            $(document).bind("mobileinit", function() {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1) {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                } else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1) {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                } else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g)) {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/databaseUtils.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="StudentGuide" id="StudentGuide"
+        class="type-interior" data-theme="b">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Back"
+            data-theme="d" name="mobileheader" id="StudentGuide_mobileheader" class="StudentGuide_mobileheader">
+                <h1 dsid="mobileheader">
+                    Student Guide
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="StudentGuide_mobilecontainer" name="mobilecontainer"
+            class="StudentGuide_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="b">
+                <link href="StudentGuide.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="StudentGuide.js">
+                </script>
+                <!-- lblGuide -->
+                <div name="lblGuide" id="StudentGuide_lblGuide" dsid="lblGuide" data-role="appery_label"
+                class="StudentGuide_lblGuide">
+                    Search for a place in zayed university and get information about it
+                </div>
+                <!-- sltSelectPlace -->
+                <div data-role="fieldcontain" class="StudentGuide_sltSelectPlace ">
+                    <select name="sltSelectPlace" id="StudentGuide_sltSelectPlace" dsid="sltSelectPlace"
+                    data-theme="d" data-role="appery_selectmenu" data-inline="false" data-mini="true"
+                    data-icon="arrow-d" data-iconpos="right" data-native-menu="true" tabindex="1" appery-class="StudentGuide_sltSelectPlace">
+                        <option id="StudentGuide_sltSelectPlace-0" value="" reRender="sltSelectPlace" dsid="sltSelectPlace-0">
+                        </option>
+                    </select>
+                </div>
+                <!-- lblDescription -->
+                <div name="lblDescription" id="StudentGuide_lblDescription" dsid="lblDescription"
+                data-role="appery_label" class="StudentGuide_lblDescription">
+                </div>
+                <!-- spacer_11 -->
+                <div id="StudentGuide_spacer_11" data-role="appery_spacer" dsid="spacer_11" class='mobilespacer StudentGuide_spacer_11'>
+                </div>
+                <!-- sltChangeLanguage -->
+                <div data-role="fieldcontain" class="StudentGuide_sltChangeLanguage ">
+                    <select name="sltChangeLanguage" id="StudentGuide_sltChangeLanguage" dsid="sltChangeLanguage"
+                    data-theme="d" data-role="appery_selectmenu" data-inline="false" data-mini="true"
+                    data-icon="arrow-d" data-iconpos="right" data-native-menu="true" tabindex="3" appery-class="StudentGuide_sltChangeLanguage">
+                        <option id="StudentGuide_sltChangeLanguage-0" value="en|en" reRender="sltChangeLanguage"
+                        dsid="sltChangeLanguage-0" selected="selected">
+                            Select Langauge
+                        </option>
+                        <option id="StudentGuide_sltChangeLanguage-1" value="en|ar" reRender="sltChangeLanguage"
+                        dsid="sltChangeLanguage-1">
+                            Arabic
+                        </option>
+                        <option id="StudentGuide_sltChangeLanguage-2" value="en|ko" reRender="sltChangeLanguage"
+                        dsid="sltChangeLanguage-2">
+                            Korean
+                        </option>
+                        <option id="StudentGuide_sltChangeLanguage-3" value="en|hi" reRender="sltChangeLanguage"
+                        dsid="sltChangeLanguage-3">
+                            Indian hindi
+                        </option>
+                        <option id="StudentGuide_sltChangeLanguage-4" value="en|it" reRender="sltChangeLanguage"
+                        dsid="sltChangeLanguage-4">
+                            Italian
+                        </option>
+                        <option id="StudentGuide_sltChangeLanguage-5" value="en|fr" reRender="sltChangeLanguage"
+                        dsid="sltChangeLanguage-5">
+                            French
+                        </option>
+                        <option id="StudentGuide_sltChangeLanguage-6" value="en|es" reRender="sltChangeLanguage"
+                        dsid="sltChangeLanguage-6">
+                            Spanish
+                        </option>
+                        <option id="StudentGuide_sltChangeLanguage-7" value="en|de" reRender="sltChangeLanguage"
+                        dsid="sltChangeLanguage-7">
+                            German Deutch
+                        </option>
+                        <option id="StudentGuide_sltChangeLanguage-8" value="en|ur" reRender="sltChangeLanguage"
+                        dsid="sltChangeLanguage-8">
+                            Pakistan Urdu
+                        </option>
+                        <option id="StudentGuide_sltChangeLanguage-9" value="en|zh" reRender="sltChangeLanguage"
+                        dsid="sltChangeLanguage-9">
+                            Chinese
+                        </option>
+                        <option id="StudentGuide_sltChangeLanguage-10" value="en|ja" reRender="sltChangeLanguage"
+                        dsid="sltChangeLanguage-10">
+                            Japanese
+                        </option>
+                        <option id="StudentGuide_sltChangeLanguage-11" value="en|sw" reRender="sltChangeLanguage"
+                        dsid="sltChangeLanguage-11">
+                            Swahili
+                        </option>
+                        <option id="StudentGuide_sltChangeLanguage-12" value="en|tr" reRender="sltChangeLanguage"
+                        dsid="sltChangeLanguage-12">
+                            Turkish
+                        </option>
+                        <option id="StudentGuide_sltChangeLanguage-13" value="en|ru" reRender="sltChangeLanguage"
+                        dsid="sltChangeLanguage-13">
+                            Russian
+                        </option>
+                    </select>
+                </div>
+                <!-- lbltranslated -->
+                <div name="lbltranslated" id="StudentGuide_lbltranslated" dsid="lbltranslated" data-role="appery_label"
+                class="StudentGuide_lbltranslated">
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="StudentGuide_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="StudentGuide_mobilefooter" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>
