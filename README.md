@@ -39,21 +39,21 @@ Caption: Question and Answer Page. There are three options to select from Ask a 
 <img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/QuestionAndAnswer.png" width="480" height="780" alt="redux" />
 <h3> Screenshot 3 </h3>
 Caption: Incident reporting interface, enabling students to report issues and provide essential details to the university authorities.
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/ReportIncident.png" width="480" height="780" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/ReportIncident.png" align="center" width="480" height="780" alt="redux" />
 <h3> Screenshot 4 </h3>
  
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/SelectQuestionandAnswer.png" width="480" height="780" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/SelectQuestionandAnswer.png" align="center" width="480" height="780" alt="redux" />
 <h3> Screenshot 5 </h3>
  
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/StudentGuideTranslation.png" width="480" height="780" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/StudentGuideTranslation.png" align="center" width="480" height="780" alt="redux" />
 <h3> Screenshot 6 </h3>
  
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/ViewAnswersToQuestions.png" width="480" height="780" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/ViewAnswersToQuestions.png" align="center" width="480" height="780" alt="redux" />
 <h3> Screenshot 7 </h3>
  
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AskAQuestion.png" width="480" height="780" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AskAQuestion.png" align="center" width="480" height="780" alt="redux" />
 <h3> Screenshot 8 </h3>
  
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" width="480" height="780" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
 
 Please note that the provided screenshots are for illustrative purposes only and may not reflect the final version of the application. The Student Guide Project continues to evolve and improve based on user feedback and emerging needs within the Zayed University community.
