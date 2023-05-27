@@ -64,4 +64,8 @@ Caption: Incident reporting interface, enabling students to report issues and pr
  <img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
 	</div>
+	<br/>
+	<br/>
 Please note that the provided screenshots are for illustrative purposes only and may not reflect the final version of the application. The Student Guide Project continues to evolve and improve based on user feedback and emerging needs within the Zayed University community.
+	<br/>
+	<br/>
