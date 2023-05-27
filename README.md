@@ -43,13 +43,13 @@ Caption: Incident reporting interface, enabling students to report issues and pr
 <img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/ReportIncident.png" width="480" height="780" alt="redux" />
 <h3> Screenshot 4 </h3>
 Caption: Incident reporting interface, enabling students to report issues and provide essential details to the university authorities.
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/SelectQuestionandAnswer.png" width="780" height="480" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/SelectQuestionandAnswer.png" width="480" height="780" alt="redux" />
 <h3> Screenshot 5 </h3>
 Caption: Incident reporting interface, enabling students to report issues and provide essential details to the university authorities.
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/StudentGuideTranslation.png" width="780" height="480" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/StudentGuideTranslation.png" width="480" height="780" alt="redux" />
 <h3> Screenshot 6 </h3>
 Caption: Incident reporting interface, enabling students to report issues and provide essential details to the university authorities.
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/ViewAnswersToQuestions.png" width="780" height="480" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/ViewAnswersToQuestions.png" width="480" height="780" alt="redux" />
 <h3> Screenshot 7 </h3>
 Caption: Incident reporting interface, enabling students to report issues and provide essential details to the university authorities.
 <img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AskAQuestion.png" width="480" height="780" alt="redux" />
