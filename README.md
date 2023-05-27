@@ -23,11 +23,11 @@ Students can utilize the app to report incidents or issues they encounter within
 
 <h2> System Design <h2/>
 	<h3> Screenshot 1</h3>
-	<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/System1.png" width="780" height="480" alt="redux" />
+	<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/System1.png" width="980" height="480" alt="redux" />
 	<h3> Screenshot 2</h3>
-	<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/System2.png" width="780" height="480" alt="redux" />
+	<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/System2.png" width="980" height="480" alt="redux" />
 	<h3> Screenshot 3</h3>
-	<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/System3.png" width="780" height="480" alt="redux" />
+	<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/System3.png" width="980" height="480" alt="redux" />
 	
 	<br/>
 <h2>Sample Screenshots of the Interfaces</h2>
