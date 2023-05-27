@@ -28,7 +28,6 @@ Students can utilize the app to report incidents or issues they encounter within
 	<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/System2.png" width="980" height="480" alt="redux" />
 	<h3> Screenshot 3</h3>
 	<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/System3.png" width="980" height="480" alt="redux" />
-	
 	<br/>
 <h2>Sample Screenshots of the Interfaces</h2>
 Below are some sample screenshots of the Student Guide Project:
