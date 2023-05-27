@@ -19,7 +19,7 @@ Below are some sample screenshots of the Student Guide Project:
 
 <h3> Screenshot </h3>
 Caption: Home screen of the app, providing easy access to various features and functionalities.
-
+ 
 <h3> Screenshot 2 </h3>
 Caption: Language selection screen, allowing users to choose their preferred language for app content.
 
