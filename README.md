@@ -21,16 +21,40 @@ Navigating a large university campus can be challenging, especially for new stud
 <h2>Incident Reporting</h2>
 Students can utilize the app to report incidents or issues they encounter within the university. This feature serves as a platform for students to communicate their concerns or problems to the responsible authorities promptly. By streamlining the reporting process, the app contributes to a safe and conducive learning environment for all students.
 
-<h2>Sample Screenshots</h2>
+<h2> System Design <h2/>
+	<h3> Screenshot 1</h3>
+	<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/System1.png" width="48" height="48" alt="redux" />
+	<h3> Screenshot 2</h3>
+	<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/System2.png" width="48" height="48" alt="redux" />
+	<h3> Screenshot 3</h3>
+	<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/System3.png" width="48" height="48" alt="redux" />
+	
+	<br/>
+<h2>Sample Screenshots of the Interfaces</h2>
 Below are some sample screenshots of the Student Guide Project:
-
-<h3> Screenshot </h3>
+<h3> Screenshot 1 </h3>
 Caption: Home screen of the app, providing easy access to various features and functionalities.
- 
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/HomePage.png" width="48" height="48" alt="redux" />
 <h3> Screenshot 2 </h3>
 Caption: Language selection screen, allowing users to choose their preferred language for app content.
-
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/QuestionAndAnswer.png" width="48" height="48" alt="redux" />
 <h3> Screenshot 3 </h3>
 Caption: Incident reporting interface, enabling students to report issues and provide essential details to the university authorities.
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/ReportIncident.png" width="48" height="48" alt="redux" />
+<h3> Screenshot 4 </h3>
+Caption: Incident reporting interface, enabling students to report issues and provide essential details to the university authorities.
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/SelectQuestionandAnswer.png" width="48" height="48" alt="redux" />
+<h3> Screenshot 5 </h3>
+Caption: Incident reporting interface, enabling students to report issues and provide essential details to the university authorities.
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/StudentGuideTranslation.png" width="48" height="48" alt="redux" />
+<h3> Screenshot 6 </h3>
+Caption: Incident reporting interface, enabling students to report issues and provide essential details to the university authorities.
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/ViewAnswersToQuestions.png" width="48" height="48" alt="redux" />
+<h3> Screenshot 7 </h3>
+Caption: Incident reporting interface, enabling students to report issues and provide essential details to the university authorities.
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AskAQuestion.png" width="48" height="48" alt="redux" />
+<h3> Screenshot 8 </h3>
+Caption: Incident reporting interface, enabling students to report issues and provide essential details to the university authorities.
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" width="48" height="48" alt="redux" />
 
 Please note that the provided screenshots are for illustrative purposes only and may not reflect the final version of the application. The Student Guide Project continues to evolve and improve based on user feedback and emerging needs within the Zayed University community.
