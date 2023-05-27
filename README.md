@@ -1,4 +1,11 @@
 <h1> Student Guide Project </h1>
+<p align="center">
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/simon-zerisenay/Student-Guide-and-Qoura?color=lightblue" />
+	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/simon-zerisenay/Student-Guide-and-Qoura?color=critical" />
+	<img alt="Code language count" src="https://img.shields.io/github/languages/count/simon-zerisenay/Student-Guide-and-Qoura?color=yellow" />
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/simon-zerisenay/Student-Guide-and-Qoura?color=blue" />
+	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/simon-zerisenay/Student-Guide-and-Qoura?color=green" />
+</p>
 The Student Guide Project is a mobile application developed using appery.io, designed to provide an easy and comprehensive service for students at Zayed University. With its user-friendly interface and wide range of features, the app aims to enhance the student experience by offering various functionalities to access information, report issues, and foster communication among students.
 
 <h2> Features </h2>
