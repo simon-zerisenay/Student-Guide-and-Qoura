@@ -31,6 +31,7 @@ Students can utilize the app to report incidents or issues they encounter within
 	<br/>
 <h2>Sample Screenshots of the Interfaces</h2>
 Below are some sample screenshots of the Student Guide Project:
+	<div align="center">
 <h3> Screenshot 1 </h3>
 Caption: Home screen of the app, providing easy access to various features and functionalities.
 <img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/HomePage.png" width="480" height="780" alt="redux" />
@@ -55,5 +56,5 @@ Caption: Incident reporting interface, enabling students to report issues and pr
 <h3> Screenshot 8 </h3>
  
 <img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
-
+	</div>
 Please note that the provided screenshots are for illustrative purposes only and may not reflect the final version of the application. The Student Guide Project continues to evolve and improve based on user feedback and emerging needs within the Zayed University community.
