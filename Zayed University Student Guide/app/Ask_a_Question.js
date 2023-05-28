@@ -5,7 +5,7 @@ Apperyio.getProjectGUID = function() {
     return '97c28bfd-366a-4acc-9168-d1f20dc6a133'; 
 };  
  
-function navigateTo(outcome, useAjax) {
+function navigateTo(outcome, useAjax) { 
     Apperyio.navigateTo(outcome, useAjax);
 }
 
