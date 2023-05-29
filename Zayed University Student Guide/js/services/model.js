@@ -1,7 +1,7 @@
 /**
  * Data models
  */
-Apperyio.Entity = new Apperyio.EntityFactory({
+Apperyio.Entity = new Apperyio.EntityFactory({ 
     "String": {
         "type": "string"
     },
