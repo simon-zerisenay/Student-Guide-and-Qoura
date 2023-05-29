@@ -3,7 +3,7 @@
  */
 Apperyio.Entity = new Apperyio.EntityFactory({   
     "String": { 
-        "type": "string"
+        "type": "string" 
     },
     "Number": { 
         "type": "number"
