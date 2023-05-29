@@ -2,7 +2,7 @@
  * Data models
  */
 Apperyio.Entity = new Apperyio.EntityFactory({   
-    "String": {
+    "String": { 
         "type": "string"
     },
     "Number": {
