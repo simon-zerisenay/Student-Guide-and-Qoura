@@ -5,7 +5,7 @@ Apperyio.Entity = new Apperyio.EntityFactory({
     "String": { 
         "type": "string"
     },
-    "Number": {
+    "Number": { 
         "type": "number"
     },
     "Boolean": {
