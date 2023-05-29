@@ -12,7 +12,7 @@ The Student Guide Project is a mobile application developed using appery.io, des
 <h3> Language Translation </h3>
 The Student Guide Project supports translation to 50 different languages, ensuring that students from diverse backgrounds can access information in their preferred language. This feature promotes inclusivity and eliminates language barriers, allowing students to navigate the app and obtain necessary information effortlessly.
 
-<h2> Question and Answer Program </h2>
+<h2> Question and Answer Program </h2> 
 The app includes a question and answer program, enabling students to seek guidance or clarification on various topics related to the university, courses, or student life. This interactive feature encourages knowledge sharing among students and facilitates a supportive learning environment.
 
 <h2>Location Instructions</h2>
