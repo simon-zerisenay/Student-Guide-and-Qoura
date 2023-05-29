@@ -15,7 +15,7 @@ The Student Guide Project supports translation to 50 different languages, ensuri
 <h2> Question and Answer Program </h2> 
 The app includes a question and answer program, enabling students to seek guidance or clarification on various topics related to the university, courses, or student life. This interactive feature encourages knowledge sharing among students and facilitates a supportive learning environment.
 
-<h2>Location Instructions</h2>
+<h2>Location Instructions</h2> 
 Navigating a large university campus can be challenging, especially for new students. The Student Guide Project provides detailed instructions and information about different locations inside Zayed University. Whether it's finding specific facilities, classrooms, libraries, or other areas of interest, students can rely on the app to navigate with ease and efficiency.
 
 <h2>Incident Reporting</h2>
