@@ -1,4 +1,11 @@
+<div align="center">
+
 <h1> Student Guide Project </h1>
+  <a href="https://github.com/simon-zerisenay/Student-Guide-and-Qoura" target="_blank">
+    <img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/StudentGuidenQoura.png"  padding="20" height="170" width="200" alt="twitter logo"  />
+  </a>
+	
+</div>
 <p align="center">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/simon-zerisenay/Student-Guide-and-Qoura?color=lightblue" />
 	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/simon-zerisenay/Student-Guide-and-Qoura?color=critical" />
