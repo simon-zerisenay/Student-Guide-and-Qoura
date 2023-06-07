@@ -25,7 +25,7 @@ The app includes a question and answer program, enabling students to seek guidan
 
 <h2>Location Instructions</h2> 
 Navigating a large university campus can be challenging, especially for new students. The Student Guide Project provides detailed instructions and information about different locations inside Zayed University. Whether it's finding specific facilities, classrooms, libraries, or other areas of interest, students can rely on the app to navigate with ease and efficiency.
-
+ 
 <h2>Incident Reporting</h2>
 Students can utilize the app to report incidents or issues they encounter within the university. This feature serves as a platform for students to communicate their concerns or problems to the responsible authorities promptly. By streamlining the reporting process, the app contributes to a safe and conducive learning environment for all students.
 
