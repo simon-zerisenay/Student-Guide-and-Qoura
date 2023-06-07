@@ -28,7 +28,7 @@ Navigating a large university campus can be challenging, especially for new stud
  
 <h2>Incident Reporting</h2>
 Students can utilize the app to report incidents or issues they encounter within the university. This feature serves as a platform for students to communicate their concerns or problems to the responsible authorities promptly. By streamlining the reporting process, the app contributes to a safe and conducive learning environment for all students.
-
+ 
 <h2> System Design <h2/>
 	<h3> Screenshot 1: Student Guide Page</h3>  
 	<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/System1.png" width="980" height="480" alt="redux" />
